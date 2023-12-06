@@ -189,7 +189,6 @@ git commit -m "$input"
 git remote add origin git@github.com:BallowTK/ATT.git
 	echo "Using main"
 		git push -u origin main
-fi
 
 if grep -q master .git/config; then
 	echo "Using master"
