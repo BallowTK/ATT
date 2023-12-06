@@ -186,7 +186,7 @@ git commit -m "$input"
 
 # Push the local files to github
 
-if grep -q main .git/config; then
+git remote add origin git@github.com:BallowTK/ATT.git
 	echo "Using main"
 		git push -u origin main
 fi
